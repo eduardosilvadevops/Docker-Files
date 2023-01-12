@@ -14,5 +14,5 @@ services:
       ND_SESSIONTIMEOUT: 24h
       ND_BASEURL: ""
     volumes:
-      - "/mnt/Arch/@home/edu/Music/.data:/data"
-      - "/mnt/Arch/@home/edu/Music:/music:ro"
+      - "{Diretorio dados}:/data"
+      - "{Diretorio musicas}:ro"
